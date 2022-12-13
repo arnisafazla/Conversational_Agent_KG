@@ -1,0 +1,7 @@
+query/query/data/
+query/query/__pycache__/
+.idea/
+./dataset_intro.ipynb
+./dataset_intro.pdf
+./report notes.docx
+./demo_agent.py
