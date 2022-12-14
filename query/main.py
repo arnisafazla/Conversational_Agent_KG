@@ -100,5 +100,9 @@ class DemoBot:
 if __name__ == '__main__':
     username = 'arnisa.fazla_bot'
     password = "hreE4_dEsUOYJw"
-    demobot = DemoBot(username, password)
-    demobot.listen()
+    while True:
+        try:
+            demobot = DemoBot(username, password)
+            demobot.listen()
+        except:
+            print('En error occured.')
